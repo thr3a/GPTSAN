@@ -1,5 +1,5 @@
-tensorflow_datasets
+tensorflow-datasets==4.5.2
 ortools==9.1.9490
--e "git+https://github.com/tensorflow/mesh.git#egg=mesh-tensorflow"
-tqdm
-pandas
+-e git+https://github.com/tensorflow/mesh.git@a9a13a8031ed148bd66bf7209e2a9ceacefa205f#egg=mesh_tensorflow
+tqdm==4.64.1
+pandas==1.1.5
